@@ -85,7 +85,6 @@ void Gen_H()
 }
 
 void compress_and_decompress(){
-    double res_signal[L_size];
     //I make this calculation to see how many iterations I have to go through below before the signal is fully compressed
     uint8_t iter = SIG_SIZE/L_size;
     //I have made the mulMat function which multiplies 2 matrices now the only problem is to have those 2 matrices to have same dimensions
