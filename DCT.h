@@ -31,7 +31,6 @@ void Gen_H()
     float fk = 0;
     for (uint8_t k = 0; k < L_size; k++)
     {
-        //printf("current loop 1 %d \n", (int)k);
         float fn = 0;
         for (uint8_t n = 0; n < L_size; n++)
         {
